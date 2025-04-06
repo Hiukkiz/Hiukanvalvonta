@@ -1,53 +1,114 @@
-<!DOCTYPE html><html lang="fi">
+<!DOCTYPE html>
+<html lang="fi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hiukan Valvonta</title>
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; background: #f5f5f5; margin: 0; padding: 0; }
-    .container { max-width: 900px; margin: auto; background: white; padding: 2rem; }
-    header { text-align: center; margin-bottom: 2rem; }
-    h1 { color: #1a202c; }
-    h2 { color: #2d3748; margin-top: 2rem; }
-    ul { padding-left: 1.2rem; }
-    footer { text-align: center; font-size: 0.9rem; color: #666; margin-top: 3rem; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #6b8e23; /* Oliivinvihreä */
+      padding: 10px 0;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #2f4f4f; /* Tumma metsänvihreä */
+      text-align: center;
+      padding: 12px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      color: #4b8f29; /* Metsänvihreä */
+      border-bottom: 2px solid #6b8e23;
+      padding-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #6b8e23;
+      color: white;
+    }
   </style>
 </head>
 <body>
+
+  <header>
+    <h1>Hiukan Valvonta</h1>
+    <p>Laadukasta ja turvallista rakentamista – selkeästi ja käytännöllisesti.</p>
+  </header>
+
+  <nav>
+    <a href="#etusivu">Etusivu</a>
+    <a href="#palvelut">Palvelut</a>
+    <a href="#hinnastot">Hinnastot</a>
+    <a href="#yhteystiedot">Yhteystiedot</a>
+  </nav>
+
   <div class="container">
-    <header>
-      <h1>Hiukan Valvonta</h1>
-      <p>Laadukasta ja turvallista rakentamista – selkeästi ja käytännöllisesti.</p>
-    </header><section>
-  <h2>Palvelumme</h2>
-  <ul>
-    <li>Työmaan turvallisuustarkastus (TR-mittaus)</li>
-    <li>Laadunvalvonta ja työmaavalvonta</li>
-    <li>Rakennuttajakonsultointi / valvontapalvelut</li>
-    <li>Turvallisuuskoordinaattorin tehtävät</li>
-    <li>Digitaalinen työmaakansio</li>
-    <li>Työturvallisuusperehdytys ja koulutus (kumppanin kautta)</li>
-  </ul>
-</section>
+    
+    <section id="etusivu" class="section">
+      <h2>Etusivu</h2>
+      <p>Hiukan Valvonta tarjoaa laadukasta rakentamisen valvontaa ja turvallisuuskonsultointia. Asiantunteva palvelumme takaa, että rakennusprojektisi etenee turvallisesti ja tehokkaasti. Meidän tavoitteenamme on parantaa rakennustyömaiden turvallisuutta ja laatua luotettavilla ja asiantuntevilla palveluilla.</p>
+    </section>
 
-<section>
-  <h2>Kenelle?</h2>
-  <ul>
-    <li>Rakennusliikkeet</li>
-    <li>Rakennuttajat ja pienrakentajat</li>
-    <li>Aliurakoitsijat ja työmaapäälliköt</li>
-  </ul>
-</section>
+    <section id="palvelut" class="section">
+      <h2>Palvelut</h2>
+      <ul>
+        <li>Työmaan turvallisuustarkastus (TR-mittaus)</li>
+        <li>Laadunvalvonta ja työmaavalvonta</li>
+        <li>Rakennuttajakonsultointi / valvontapalvelut</li>
+        <li>Turvallisuuskoordinaattorin tehtävät</li>
+        <li>Digitaalinen työmaakansio</li>
+        <li>Työturvallisuusperehdytys ja koulutus (kumppanin kautta)</li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Miksi valita meidät?</h2>
-  <p>Tarjoamme joustavaa ja käytännönläheistä laadun- ja turvallisuudenhallintaa työmaille. Selkeät raportit, asiantunteva ote ja moderni dokumentointi tekevät rakentamisesta sujuvampaa ja turvallisempaa.</p>
-</section>
+    <section id="hinnastot" class="section">
+      <h2>Hinnastot</h2>
+      <p>Tarjoamme kilpailukykyiset hinnat ja räätälöimme palvelut tarpeen mukaan. Ota yhteyttä, niin voimme laatia tarjouksen, joka vastaa projektisi vaatimuksia.</p>
+    </section>
 
-<footer>
-  <p>&copy; 2025 Hiukan Valvonta</p>
-</footer>
+    <section id="yhteystiedot" class="section">
+      <h2>Yhteystiedot</h2>
+      <p><strong>Jani Hiukkamäki</strong></p>
+      <p>Rakennusinsinööri</p>
+      <p>Puhelinnumero: <strong>040 123 4567</strong></p>
+      <p>Email: <strong>jani@hiukanvalvonta.fi</strong></p>
+    </section>
 
   </div>
+
+  <footer>
+    <p>&copy; 2025 Hiukan Valvonta. Kaikki oikeudet pidätetään.</p>
+  </footer>
+
 </body>
 </html>
